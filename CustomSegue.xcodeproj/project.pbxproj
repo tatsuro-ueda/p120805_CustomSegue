@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A6887715CE526000317B0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A6887615CE526000317B0B /* UIKit.framework */; };
+		07A6887915CE526000317B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A6887815CE526000317B0B /* Foundation.framework */; };
+		07A6887B15CE526000317B0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A6887A15CE526000317B0B /* CoreGraphics.framework */; };
+		07A6888115CE526000317B0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07A6887F15CE526000317B0B /* InfoPlist.strings */; };
+		07A6888315CE526000317B0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6888215CE526000317B0B /* main.m */; };
+		07A6888715CE526000317B0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6888615CE526000317B0B /* AppDelegate.m */; };
+		07A6888A15CE526000317B0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A6888815CE526000317B0B /* MainStoryboard.storyboard */; };
+		07A6888D15CE526000317B0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6888C15CE526000317B0B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A6887215CE526000317B0B /* CustomSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A6887615CE526000317B0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07A6887815CE526000317B0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07A6887A15CE526000317B0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07A6887E15CE526000317B0B /* CustomSegue-Info.plist */ = {isa = PBXFileReference; path = "CustomSegue-Info.plist"; sourceTree = "<group>"; };
+		07A6888015CE526000317B0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07A6888215CE526000317B0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07A6888415CE526000317B0B /* CustomSegue-Prefix.pch */ = {isa = PBXFileReference; path = "CustomSegue-Prefix.pch"; sourceTree = "<group>"; };
+		07A6888515CE526000317B0B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		07A6888615CE526000317B0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07A6888915CE526000317B0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07A6888B15CE526000317B0B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		07A6888C15CE526000317B0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A6886F15CE526000317B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A6887715CE526000317B0B /* UIKit.framework in Frameworks */,
+				07A6887915CE526000317B0B /* Foundation.framework in Frameworks */,
+				07A6887B15CE526000317B0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A6886715CE526000317B0B = {
+			isa = PBXGroup;
+			children = (
+				07A6887C15CE526000317B0B /* CustomSegue */,
+				07A6887515CE526000317B0B /* Frameworks */,
+				07A6887315CE526000317B0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07A6887315CE526000317B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A6887215CE526000317B0B /* CustomSegue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A6887515CE526000317B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A6887615CE526000317B0B /* UIKit.framework */,
+				07A6887815CE526000317B0B /* Foundation.framework */,
+				07A6887A15CE526000317B0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07A6887C15CE526000317B0B /* CustomSegue */ = {
+			isa = PBXGroup;
+			children = (
+				07A6888515CE526000317B0B /* AppDelegate.h */,
+				07A6888615CE526000317B0B /* AppDelegate.m */,
+				07A6888815CE526000317B0B /* MainStoryboard.storyboard */,
+				07A6888B15CE526000317B0B /* ViewController.h */,
+				07A6888C15CE526000317B0B /* ViewController.m */,
+				07A6887D15CE526000317B0B /* Supporting Files */,
+			);
+			path = CustomSegue;
+			sourceTree = "<group>";
+		};
+		07A6887D15CE526000317B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07A6887E15CE526000317B0B /* CustomSegue-Info.plist */,
+				07A6887F15CE526000317B0B /* InfoPlist.strings */,
+				07A6888215CE526000317B0B /* main.m */,
+				07A6888415CE526000317B0B /* CustomSegue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A6887115CE526000317B0B /* CustomSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A6889015CE526000317B0B /* Build configuration list for PBXNativeTarget "CustomSegue" */;
+			buildPhases = (
+				07A6886E15CE526000317B0B /* Sources */,
+				07A6886F15CE526000317B0B /* Frameworks */,
+				07A6887015CE526000317B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSegue;
+			productName = CustomSegue;
+			productReference = 07A6887215CE526000317B0B /* CustomSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A6886915CE526000317B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07A6886C15CE526000317B0B /* Build configuration list for PBXProject "CustomSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07A6886715CE526000317B0B;
+			productRefGroup = 07A6887315CE526000317B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A6887115CE526000317B0B /* CustomSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07A6887015CE526000317B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A6888115CE526000317B0B /* InfoPlist.strings in Resources */,
+				07A6888A15CE526000317B0B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07A6886E15CE526000317B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A6888315CE526000317B0B /* main.m in Sources */,
+				07A6888715CE526000317B0B /* AppDelegate.m in Sources */,
+				07A6888D15CE526000317B0B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07A6887F15CE526000317B0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A6888015CE526000317B0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07A6888815CE526000317B0B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A6888915CE526000317B0B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07A6888E15CE526000317B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07A6888F15CE526000317B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07A6889115CE526000317B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSegue/CustomSegue-Prefix.pch";
+				INFOPLIST_FILE = "CustomSegue/CustomSegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07A6889215CE526000317B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSegue/CustomSegue-Prefix.pch";
+				INFOPLIST_FILE = "CustomSegue/CustomSegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A6886C15CE526000317B0B /* Build configuration list for PBXProject "CustomSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A6888E15CE526000317B0B /* Debug */,
+				07A6888F15CE526000317B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A6889015CE526000317B0B /* Build configuration list for PBXNativeTarget "CustomSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A6889115CE526000317B0B /* Debug */,
+				07A6889215CE526000317B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A6886915CE526000317B0B /* Project object */;
+}
